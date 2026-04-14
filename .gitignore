@@ -1,0 +1,66 @@
+data
+work
+.apptainer
+ontainer ===
+*.sif
+*.img
+*.tar
+*.tar.gz
+
+# === Logs & Outputs ===
+ *.log
+ *.out
+ *.err
+ output/
+ results/
+
+ # === Cache ===
+ __pycache__/
+ *.pyc
+ .cache/
+ tmp/
+
+ # === Env ===
+ .env
+ .env.*
+
+ # === Notebook ===
+ .ipynb_checkpoints/
+
+ # === Editor ===
+ .vscode/
+ .idea/
+# containers
+*.sif
+*.img
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# outputs
+output/
+outputs/
+results/
+logs/
+*.log
+*.out
+*.err
+
+# cache / temp
+__pycache__/
+*.pyc
+.cache/
+tmp/
+temp/
+
+# env
+.env
+.env.*
+
+# editor
+.vscode/
+.idea/
